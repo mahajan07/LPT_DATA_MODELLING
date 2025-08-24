@@ -1,0 +1,21 @@
+AdjustmentModellingByD/
+├── data/
+│   ├── raw_data.json                    # Your JSON with subject + comparables
+│   └── normalized_properties.csv       # Output after normalization
+│
+├── src/
+│   └── adjustment_modeling/
+│       ├── __init__.py
+│       ├── core/
+│       │   ├── __init__.py
+│       │   ├── data_loader.py              # Load raw JSON and add property_appraisal_type
+│       │   └── normalizer.py               # DATA FRAME DESIGN - normalize green/blue fields
+│       └── utils/
+│           ├── __init__.py
+│           └── constants.py                # Field mappings
+│
+├── scripts/
+│   └── normalize_data.py                   # Simple script to run normalization
+│
+├── requirements.txt
+└── README.md

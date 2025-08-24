@@ -1,4 +1,21 @@
-🚀 How to Contribute to This ProjectWelcome to the team! To keep our codebase clean, stable, and easy to manage, we follow a simple workflow based on feature branches and Pull Requests (PRs).The Golden Rule: Never push changes directly to the main branch. All code must be reviewed and merged via a Pull Request.📝 The Workflow: Step-by-StepFollow these steps every time you want to add a new feature, fix a bug, or make any changes to the code.1. 🔄 Start Fresh: Sync Your Local mainBefore starting any new work, make sure your local main branch is perfectly in sync with the latest version of the project on GitHub.# Switch to your local main branch
+# 🚀 How to Contribute to This Project
+
+Welcome to the team! To keep our codebase clean, stable, and easy to manage, we follow a simple workflow based on feature branches and Pull Requests (PRs).
+
+> **The Golden Rule:** Never push changes directly to the `main` branch. All code must be reviewed and merged via a Pull Request.
+
+---
+
+## 📝 The Workflow: Step-by-Step
+
+Follow these steps every time you want to add a new feature, fix a bug, or make any changes to the code.
+
+### 1. 🔄 Start Fresh: Sync Your Local `main`
+
+Before starting any new work, make sure your local `main` branch is perfectly in sync with the latest version of the project on GitHub.
+
+```bash
+# Switch to your local main branch
 git checkout main
 
 # Pull the latest changes from the GitHub repository

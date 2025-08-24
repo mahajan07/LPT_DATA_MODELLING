@@ -20,6 +20,7 @@ git checkout main
 
 # Pull the latest changes from the GitHub repository
 git pull origin main
+```
 2. 🌿 Create Your Feature BranchCreate a new branch for the specific task you're working on. Give it a descriptive name, using prefixes like feature/, bugfix/, or docs/.# Create a new branch and switch to it immediately
 # Example: git checkout -b feature/user-login
 git checkout -b <branch-name>

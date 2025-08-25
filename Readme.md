@@ -1,4 +1,4 @@
-# LPT Data Modelling
+# LPT Adjustment Data Modelling
 
 A simple Python module to load and normalize property data from JSON files, designed to streamline the initial steps of a data modeling workflow.
 

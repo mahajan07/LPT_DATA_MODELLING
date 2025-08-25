@@ -13,8 +13,8 @@ pip install pandas numpy
 ```
 **2. Use the modules in your project:**
 ```bash
-from lpt_modeling.data_loader import PropertyDataLoader
-from lpt_modeling.normalizer import PropertyNormalizer
+from src.adjustment_modeling.data_loader import PropertyDataLoader
+from src.adjustment_modeling.normalizer import PropertyNormalizer
 
 # Load data from a JSON file
 loader = PropertyDataLoader('raw_data.json')

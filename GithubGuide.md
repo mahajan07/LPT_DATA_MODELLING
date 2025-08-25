@@ -37,8 +37,10 @@ git commit -m "type: A short description of your changes"
 ```bash
 git push origin <branch-name>
 ```
-### 5. 📬 Open a Pull Request (PR)Go to the repository page on GitHub. You should see a yellow banner with your branch name and a button that says "Compare & pull request". Click it.Give your Pull Request a clear title.Write a brief description of the changes you made and why.Assign team members as reviewers.Click "Create pull request".
-
+### 5. 📬 Open a Pull Request (PR), Go to the repository page on GitHub. 
+```bash
+You should see a yellow banner with your branch name and a button that says "Compare & pull request". Click it. Give your Pull Request a clear title.Write a brief description of the changes you made and why.Assign team members as reviewers.Click "Create pull request".
+```
 ### 6. 💬 Collaborate and ReviseYour teammates will review your code and may request changes. If you need to make updates:Make the required code changes locally in your branch.Commit and push the changes just like you did in steps 3 and 4.
 ```bash
 The Pull Request will automatically update with your new commits.# Make your edits, then...

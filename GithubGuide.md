@@ -21,42 +21,36 @@ git checkout main
 # Pull the latest changes from the GitHub repository
 git pull origin main
 ```
-2. 🌿 Create Your Feature BranchCreate a new branch for the specific task you're working on. Give it a descriptive name, using prefixes like feature/, bugfix/, or docs/.# Create a new branch and switch to it immediately
+### 2. 🌿 Create Your Feature BranchCreate a new branch for the specific task you're working on. Give it a descriptive name, using prefixes like feature/, bugfix/, or docs/.# Create a new branch and switch to it immediately
+```bash
 # Example: git checkout -b feature/user-login
 git checkout -b <branch-name>
-3. 💻 Do the Work & Commit Your ChangesNow you can write your code! As you make progress, commit your changes in small, logical chunks. Write clear and concise commit messages that explain what you did.# Stage your changes (add all modified files in the project)
+```
+### 3. 💻 Do the Work & Commit Your ChangesNow you can write your code! As you make progress, commit your changes in small, logical chunks. Write clear and concise commit messages that explain what you did.# Stage your changes (add all modified files in the project)
+```bash
 git add .
-
 # Commit them with a clear, descriptive message
 # Example: git commit -m "feat: Add user login form component"
 git commit -m "type: A short description of your changes"
-4. ⬆️ Push Your Branch to GitHubWhen you're ready for your code to be reviewed (or you just want to back it up), push your new branch to the remote repository on GitHub.# Push your new branch to the remote repository named 'origin'
+```
+### 4. ⬆️ Push Your Branch to GitHubWhen you're ready for your code to be reviewed (or you just want to back it up), push your new branch to the remote repository on GitHub.# Push your new branch to the remote repository named 'origin'
+```bash
 git push origin <branch-name>
-5. 📬 Open a Pull Request (PR)Go to the repository page on GitHub. You should see a yellow banner with your branch name and a button that says "Compare & pull request". Click it.Give your Pull Request a clear title.Write a brief description of the changes you made and why.Assign team members as reviewers.Click "Create pull request".6. 💬 Collaborate and ReviseYour teammates will review your code and may request changes. If you need to make updates:Make the required code changes locally in your branch.Commit and push the changes just like you did in steps 3 and 4.The Pull Request will automatically update with your new commits.# Make your edits, then...
+```
+### 5. 📬 Open a Pull Request (PR)Go to the repository page on GitHub. You should see a yellow banner with your branch name and a button that says "Compare & pull request". Click it.Give your Pull Request a clear title.Write a brief description of the changes you made and why.Assign team members as reviewers.Click "Create pull request".
+
+### 6. 💬 Collaborate and ReviseYour teammates will review your code and may request changes. If you need to make updates:Make the required code changes locally in your branch.Commit and push the changes just like you did in steps 3 and 4.
+```bash
+The Pull Request will automatically update with your new commits.# Make your edits, then...
 git add .
 git commit -m "fix: Update styling based on reviewer feedback"
 git push origin <branch-name>
-7. ✅ After the MergeOnce your PR is approved, a project lead will merge it into the main branch. Your work is now part of the main codebase! You can then safely delete your local branch.# Switch back to the main branch
+```
+### 7. ✅ After the MergeOnce your PR is approved, a project lead will merge it into the main branch. Your work is now part of the main codebase! You can then safely delete your local branch.# Switch back to the main branch
+```bash
 git checkout main
-
-# Delete the feature branch from your local machine
+```
+### Delete the feature branch from your local machine
+```bash
 git branch -d <branch-name>
-⚡ Quick Command Reference (TL;DR)# 1. Get latest main
-git checkout main
-git pull origin main
-
-# 2. Create your branch
-git checkout -b <branch-name>
-
-# 3. Work and commit changes
-git add .
-git commit -m "Your commit message"
-
-# 4. Push to GitHub
-git push origin <branch-name>
-
-# 5. Create PR on GitHub
-
-# 6. After merge, clean up
-git checkout main
-git branch -d <branch-name>
+```

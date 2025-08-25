@@ -31,9 +31,11 @@ print(normalized_df.head())
 ```
 
 ```bash
-File Structure├── lpt_modeling/
-│   ├── data_loader.py  # Contains the PropertyDataLoader class
-│   └── normalizer.py     # Contains the PropertyNormalizer class
-├── raw_data.json       # Example raw data file
-└── test_module.ipynb   # Jupyter notebook demonstrating usage
+File Scaffolding 
+├── src.adjustment_modeling/
+│   ├── data_loader.py      # Contains the PropertyDataLoader class
+│   └── normalizer.py       # Contains the PropertyNormalizer class
+├── Data
+│   ├── raw_data.json       # raw data file
+└── test_module.ipynb       # Jupyter notebook demonstrating usage
 ```

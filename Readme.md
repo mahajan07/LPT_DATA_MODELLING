@@ -10,7 +10,10 @@ A simple Python module to load and normalize property data from JSON files, desi
 git clone [https://github.com/mahajan07/LPT_DATA_MODELLING.git](https://github.com/mahajan07/LPT_DATA_MODELLING.git)
 cd LPT_DATA_MODELLING
 pip install pandas numpy
-2. Use the modules in your project:from lpt_modeling.data_loader import PropertyDataLoader
+```
+**2. Use the modules in your project:**
+```bash
+from lpt_modeling.data_loader import PropertyDataLoader
 from lpt_modeling.normalizer import PropertyNormalizer
 
 # Load data from a JSON file
@@ -25,6 +28,7 @@ normalized_df = normalizer.normalize_column('price')
 
 print("Data loaded and normalized successfully:")
 print(normalized_df.head())
+```
 File Structure├── lpt_modeling/
 │   ├── data_loader.py  # Contains the PropertyDataLoader class
 │   └── normalizer.py     # Contains the PropertyNormalizer class
